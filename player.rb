@@ -1,11 +1,10 @@
 class Player
-  
+
   attr_accessor :name, :score
-  
-  def initialize(name) 
+
+  def initialize(name)
     @name = name
     @score = 3
-  
   end
 
   def lose_point
