@@ -12,9 +12,4 @@ class Question
   def random_question
     puts "What is #{x} + #{y}?"
   end
-
 end
-
-# question = Question.new
-# question.random_question()
-# question.answer()
